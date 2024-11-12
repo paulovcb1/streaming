@@ -124,8 +124,43 @@
         font-weight: bold;
 
     }
-    img {
+    .carrosel img {
       height: 300px;
       width: 200px;
       border-radius: 10px;
     }
+
+    .icon {
+      display: flex;
+      align-items: center;
+    }
+
+    .icon i{
+      color: white;
+    }
+
+    .slide-2 {
+      display: flex;
+      padding: 15px;
+
+      
+    }
+
+    .slide-2 img {
+      height: 180px;
+      width: 300px;
+      border-radius: 5px;
+    }
+    .slide-2 img:hover {
+      transform: scale(1.05);
+      transition: 250ms all ease-in;
+    }
+
+    .containerr {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    
